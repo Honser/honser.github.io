@@ -4,16 +4,22 @@ title:  "AutoScaling Online Ticketing Website"
 date:   2017-11-01 16:16:01 -0600
 categories: jekyll update
 ---
-# Problems
+	| NodeJS | jQuery | Bootstrap CSS | JavaScript |
+
+>Website : <http://honser.github.io>  
+
+.  
+.  
+#### Problems
 Certain times of year are the ultimate stress test for e-commerce, and so many retail sites fail to prepare at all. Websites that aren’t prepared pay the price. If you fail to handle the crush of traffic, the purchases are certainly going to be made from someone else, essentially doubling the damage of your downtime through the enrichment of your competition.
-
-
-# Objectives
+  
+  
+#### Objectives
 - Services should not be stopped no matter how much traffic comes in.
 - Payment must always be made accurate and clear.
 - Real-time seats status.
 
-# Resources
+#### Resources
 - Auto Scaling & ELB(Elastic Load Balancer)
 : Auto Scaling and ELB are suitable for maintaining high availability and distributing loads balancedly when we have sudden traffic spikes.
 
@@ -38,5 +44,8 @@ Certain times of year are the ultimate stress test for e-commerce, and so many r
 - AMI(Amazon Machine Images)
 : An Amazon Machine Image (AMI) provides the information required to launch an instance.
 
-# Architecture
 
+
+#### Architecture
+
+![architecture]({{ site.baseurl }}/images/Diagram.jpg)
