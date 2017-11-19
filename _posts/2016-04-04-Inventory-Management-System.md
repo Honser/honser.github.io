@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Building a Practical Network"
-date:   2016-06-20 19:00:00 -0600
+title:  "Inventory Management System
+date:   2016-04-04 19:00:00 -0600
 categories: jekyll update
 ---
 
