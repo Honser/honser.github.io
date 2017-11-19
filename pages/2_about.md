@@ -1,47 +1,18 @@
 ---
 layout: page
 title: About
-comments: true
 permalink: /about/
 ---
 
-* content
-{:toc}
+This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
-## About the site
-This is a personal website of Hongseo Ahn, created with github and jekyll. 
+You can find the source code for Minima at GitHub:
+[jekyll][jekyll-organization] /
+[minima](https://github.com/jekyll/minima)
 
-### Admin tools
-* site [configuration file](https://github.com/LiXizhi/lixizhi.github.io/blob/master/_config.yml)
-* Jekyll + [honser-github-io.disqus.com](http://honser-github-io.disqus.com/admin/)
-* Jekyll theme templates: [jekyllthemes.org](http://jekyllthemes.org)
-   * Theme used: [cool-concise](http://jekyllthemes.org/themes/cool-concise-high-end/)
-* Jekyll official site: [jekyllrb.com](http://jekyllrb.com)
-* YAML for human readable markdown: [yaml.org](http://www.yaml.org/)
-* markdown reference: [kramdown](http://kramdown.gettalong.org/quickref.html)
-
-### About comments
-Add a variable called `comments` to the [YAML front matter](http://jekyllrb.com/docs/frontmatter/) and set its value to true. A sample might look like:
-
-    ---
-    layout: post
-    comments: true
-    # other options
-    ---
-
-### Sample markdowns
-Click view source at the bottom of the page
-
-* Embedding code
-{% highlight lua %}
-local function main()
-	print("hello world everyone")
-end
-{% endhighlight %}
+You can find the source code for Jekyll at GitHub:
+[jekyll][jekyll-organization] /
+[jekyll](https://github.com/jekyll/jekyll)
 
 
-## About me
-
-My primary interests are in Cloud Computing and Backend Development these days.
-
-
+[jekyll-organization]: https://github.com/jekyll
