@@ -37,12 +37,8 @@ Slotted ALOHA is a refinement over the pure ALOHA. The Slotted ALOHA requires th
 ![ideal]({{ site.baseurl }}/images/8.png)
 
 ---
-#### Resources
 
-
----
-
-#### Simulation Result  
+#### Simulation Results
 
 The theoretical and simulated throughput of Slotted ALOHA are shown in the following graph.  
 &nbsp;
