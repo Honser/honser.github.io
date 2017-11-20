@@ -6,7 +6,7 @@ categories: jekyll update
 ---
 	| C |
 
->Source : <http://www.github.com/honser>  
+>Source : <https://github.com/Honser/Slotted-ALOHA-Protocol>  
 
 
 --- 

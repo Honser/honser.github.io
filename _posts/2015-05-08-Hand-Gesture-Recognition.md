@@ -6,7 +6,7 @@ categories: jekyll update
 ---
 	| C++ | OpenCV |
 
->Source : <http://www.github.com/honser>  
+>Source : <https://github.com/Honser/Hand-Gesture-Recognition>  
 
 
 --- 
