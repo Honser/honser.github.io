@@ -14,20 +14,36 @@ categories: jekyll update
 #### Objectives
 - Basic inventory management system.
 - Focus on convenience and stability.
-- 
+
+&nbsp;
+
+#### Function Design
+- MainMenu
+  - FindItem
+    - Info  
+      \- Stock  
+      \- Release  
+      \- Setting    
+  - ItemList
+  - Add
+
+&nbsp;
 
 #### Simulation
-1. Find item 
-![result]({{ site.baseurl }}/images/5F.png)
+1. Find item  
+![find]({{ site.baseurl }}/images/find.png)
+&nbsp;
 
-2.
-![result]({{ site.baseurl }}/images/5F.png)
 
-3. Modify 
-![result]({{ site.baseurl }}/images/5F.png)
+2. Put items in inventory  
+![putin]({{ site.baseurl }}/images/putin.png)
+&nbsp;
 
-4. Inventory status
-![result]({{ site.baseurl }}/images/5F.png)
 
-Will be updated soon :)
+3. Modify  
+![modify]({{ site.baseurl }}/images/modify.png)
+&nbsp;
 
+
+4. Inventory status  
+![status]({{ site.baseurl }}/images/status.png)
