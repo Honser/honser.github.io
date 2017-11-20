@@ -4,6 +4,12 @@ title:  "Inventory Management System"
 date:   2015-04-04 19:00:00 -0600
 categories: jekyll update
 ---
+        | C++ |
+
+>Source : <https://github.com/Honser/Inventory-Management-System>
+
+
+--- 
 
 Will be updated soon :)
 
