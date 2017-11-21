@@ -60,6 +60,19 @@ Certain times of year are the ultimate stress test for e-commerce, and so many r
 
 
 ---
+
+#### Operation
+1. Connect to www.onlineticketsales.ml and select a seat.  
+2. EC2 instance obtains seat status from RDS.
+3. After you click a seat, the payment window pops up. The seat will be reserved and inaccessible by others until the window is closed.
+4. Click Proceed or Cancel button. 
+5. The EC2 instance sends updated information to RDS. 
+6. The instance send a message to ElastiCache for notifying every EC2 instance in AutoScaling group of the seat status(Publish).  
+7. Every EC2 instance in AutoScaling group receives the message from ElastiCache, and then informs connected users of updated information.
+&nbsp;
+
+
+
 #### Simulation
 
 ![login]({{ site.baseurl }}/images/login.png)
