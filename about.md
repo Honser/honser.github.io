@@ -1,7 +1,9 @@
 ---
 layout: page
-title: Hongseo Ahn / South Korea
+title: 
 ---
+## Hongseo Ahn _ South Korea
+<br>
 
 "Time is never really wasted. Time reveals all"
 <br>
