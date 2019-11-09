@@ -1,0 +1,29 @@
+- slug: software
+  name: software
+
+- slug: operations
+  name: operations
+
+- slug: monitoring
+  name: monitoring
+
+- slug: devops
+  name: devops
+
+- slug: data-visualization
+  name: data visualization
+
+- slug: aws
+  name: aws
+
+- slug: sitemesh
+  name: SiteMesh
+
+- slug: h2
+  name: H2
+
+- slug: gpio
+  name: GPIO
+
+- slug: confluence
+  name: Confluence

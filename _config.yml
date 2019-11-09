@@ -1,0 +1,31 @@
+# Permalinks
+permalink: pretty
+
+# Setup
+name: Hongseo Ahn's Blog
+title: Hongseo Ahn's Blog
+url: 'https://honser.github.io'
+description: Systems Engineer
+baseurl: ''
+show_drafts: false
+unpublished: true
+
+#
+exclude: [Gemfile, Gemfile.lock, README.md]
+markdown: kramdown
+
+author: 'Hongseo Ahn'
+disqus_shortname: honser
+google_analytics: UA-151905772-1
+
+plugins:
+  # https://help.github.com/articles/atom-rss-feeds-for-github-pages/
+  - jekyll-gist
+  - jekyll-sitemap
+
+sass:
+    sass_dir: _sass
+    style: :compressed
+
+    #gems:
+    #  - octopress-debugger
