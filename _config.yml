@@ -4,6 +4,7 @@ permalink: pretty
 # Setup
 name: Hongseo Ahn's Blog
 title: Hongseo Ahn's Blog
+tagline: Systems Engineer
 url: 'https://honser.github.io'
 description: 'A blog by <a href="https://instagram.com/overcoke" target="_blank">@hongseoahn</a>'
 baseurl: ''
