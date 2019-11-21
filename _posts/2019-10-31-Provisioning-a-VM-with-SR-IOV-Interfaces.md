@@ -76,7 +76,7 @@ $echo 4 > /sys/class/net/eth1/device/sriov_numvfs
 
 To make it persistent even after boot, append the above command to `rc.local` file located in `/etc/rc.d/` directory. OS executes the `rc.local` script at the end of the boot process.
 
-##Note:
+## Note:  
 When we try to change the amount of VFs, we might receive the error `Device or resource busy`. In this case, set **the value** to **0** before change it to the value. 
 
 Run below commands to check VFs are successfully created:
