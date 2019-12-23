@@ -30,3 +30,27 @@ sass:
 
     #gems:
     #  - octopress-debugger
+
+# Navigation (2nd level links supported)
+nav:
+  home:
+    - '/blog/'
+  categories:
+    - '/'
+    # - { Categories All: '/blog/categories/' }
+    - { Daily: '/blog/categories/#note' }
+    - { OpenStack: '/blog/categories/#openstack' }
+    - { SDN: '/blog/categories/#sdn' }
+    - { Django: '/blog/categories/#django' }
+    - { Python: '/blog/categories/#python' }
+    - { Projects: '/blog/categories/#projects' }
+    - { etc: '/blog/categories/#etc' }
+    # - { Tags: '/blog/tags/' }
+  about:
+    - '/about/'
+  search:
+    - '/search/'
+
+# Where are tags and categories displayed
+tag_page: '/blog/tags/'
+category_page: '/blog/categories/'
