@@ -33,9 +33,9 @@ sass:
 
 # Navigation (2nd level links supported)
 nav:
-  home:
+  Home:
     - '/blog/'
-  categories:
+  Categories:
     - '/'
     # - { Categories All: '/blog/categories/' }
     - { Daily: '/blog/categories/#note' }
@@ -46,9 +46,9 @@ nav:
     - { Projects: '/blog/categories/#projects' }
     - { etc: '/blog/categories/#etc' }
     # - { Tags: '/blog/tags/' }
-  about:
+  About:
     - '/about/'
-  search:
+  Search:
     - '/search/'
 
 # Where are tags and categories displayed
