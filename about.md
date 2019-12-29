@@ -4,7 +4,7 @@ title: About
 ---
 ## Hongseo Ahn / South Korea
 "Time is never really wasted. Time reveals all"  
--![shades]({{ site.baseurl }}/images/shades.png) 
+![shades]({{ site.baseurl }}/images/shades.png){: style="float:left"}
 <br>
 <br>
 
