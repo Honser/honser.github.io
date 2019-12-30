@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Slotted ALOHA Protocol"
-category: articles
-tags: [C, Project]
+category: Project
+tags: [C]
 ---
 
 >Source : <https://github.com/Honser/Slotted-ALOHA-Protocol>  

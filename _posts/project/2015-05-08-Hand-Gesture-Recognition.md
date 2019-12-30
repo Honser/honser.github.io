@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Hand Gesture Recognition"
-category: articles
-tags: [C++, OpenCV, Project]
+category: Project
+tags: [C++, OpenCV]
 ---
 
 >Source : <https://github.com/Honser/Hand-Gesture-Recognition>  

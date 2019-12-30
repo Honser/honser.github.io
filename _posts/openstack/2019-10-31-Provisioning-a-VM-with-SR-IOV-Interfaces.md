@@ -2,8 +2,9 @@
 layout: post
 title:  "Provisioning a VM with SR-IOV interfaces"
 description: "How to make and use SR-IOV interfaces"
-categories: articles
+categories: OpenStack
 tags: [OpenStack, SRIOV]
+comments: true
 ---
 
 As most of our VNFs need multiple interfaces from limited physical ports and also require near line-rate performance, SR-IOV fits our needs so well.

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "AutoScaling Online Ticketing Website"
-category: articles
-tags: [NodeJS,CSS,AWS,Project]
+category: Project
+tags: [NodeJS,CSS,AWS]
 ---
 
 >Website : <http://onlineticketsales.ml>  

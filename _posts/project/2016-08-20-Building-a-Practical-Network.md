@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Building a Practical Network"
-category: articles
-tags: [Network, Cisco, Project]
+category: Project
+tags: [Network, Cisco]
 --- 
 
 >Source : <https://github.com/Honser/Building-a-Practical-Network>

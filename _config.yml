@@ -16,38 +16,41 @@ exclude: [Gemfile, Gemfile.lock, README.md]
 markdown: kramdown
 
 author: 'Hongseo Ahn'
-disqus_shortname: honser
-google_analytics: UA-151905772-1
+disqus_shortname: 'honser-github-io'
+google_analytics: 'UA-151905772-1'
 
 plugins:
   # https://help.github.com/articles/atom-rss-feeds-for-github-pages/
   - jekyll-gist
+  - jekyll-paginate
   - jekyll-sitemap
 
+paginate: 5
+paginate_path: '/blog/page:num'
 sass:
     sass_dir: _sass
     style: :compressed
 
-    #gems:
-    #  - octopress-debugger
 
 # Navigation (2nd level links supported)
 nav:
   Home:
-    - '/blog/'
+    - '/blog'
   Categories:
-    - '/'
+    - '/blog/categories/'
     # - { Categories All: '/blog/categories/' }
-    - { Daily: '/blog/categories/#note' }
+    - { Daily: '/blog/categories/#daily' }
     - { OpenStack: '/blog/categories/#openstack' }
     - { SDN: '/blog/categories/#sdn' }
     - { Django: '/blog/categories/#django' }
     - { Python: '/blog/categories/#python' }
-    - { Projects: '/blog/categories/#projects' }
+    - { Project: '/blog/categories/#project' }
     - { etc: '/blog/categories/#etc' }
     # - { Tags: '/blog/tags/' }
   About:
     - '/about/'
+  Tags:
+    - '/blog/tags/'
   Search:
     - '/search/'
 

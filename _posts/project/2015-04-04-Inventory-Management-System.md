@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Inventory Management System"
-category: articles
-tags: [C++,Project]
+category: Project
+tags: [C++]
 ---
 
 >Source : <https://github.com/Honser/Inventory-Management-System>

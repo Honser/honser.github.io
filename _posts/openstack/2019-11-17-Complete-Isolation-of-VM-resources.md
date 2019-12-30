@@ -2,8 +2,9 @@
 layout: post
 title:  "Complete Isolation of VM resources"
 description: ""
-categories: articles
+categories: OpenStack
 tags: [OpenStack, CPU, Isolation]
+comments: true
 ---
 
 When we allocate CPUs to a guest for using them only for an application on it, we need to keep in mind that many other processes from host to guest can steal that CPUs and sometimes VM should compete for it. Not to let the host or other VMs interrupt, some configuration must be set for the resources to be dedicated completely. In our evironment, hyper-threading is enabled unless it's a special case.
