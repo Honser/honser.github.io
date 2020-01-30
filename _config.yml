@@ -39,7 +39,7 @@ nav:
   Categories:
     - '/blog/categories/'
     # - { Categories All: '/blog/categories/' }
-    - { Daily: '/blog/categories/#daily' }
+    #- { Daily: '/blog/categories/#daily' }
     - { OpenStack: '/blog/categories/#openstack' }
     - { Kubernetes: '/blog/categories/#kubernetes' }
     - { SDN: '/blog/categories/#sdn' }
