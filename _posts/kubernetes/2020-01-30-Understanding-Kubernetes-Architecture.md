@@ -45,13 +45,6 @@ Kubernetes에서는 사용자로부터 요청 받은 Workflow에 따라 하나 �
 
 ### 5. etcd
 Cluster 내 모든 데이터를 관리하는 Key-value store 방식의 저장공간. 가용성이나 복구 관점에서 생각 할 때 제일 신경써야 되는 Component 이기 때문에, 여유가 있다면 Production grade에서 Five node로 구성하는 게 best라고 Kubernetes 공식 블로그에는 적혀있지만 경험상 three node 정도로만 쓰이는 듯하다. 
-
-### 6. Addons
-말그대로 추가로 사용 가능한 Component들인데 대표적으로 명시되어 있는 건 아래 네 가지이고, 다른 것들은 필수는 아니지만 DNS server는 꼭 있어야 하는데 kubeadm과 함께 default로 설치된다. 그리고 1.11 이후 버전에서는 CoreDNS가 권장된다. 
-* **DNS**
-* **Web UI(Dashboard)**
-* **CRM(Container Resource Monitoring)**
-* **Cluster-level Logging**
 <br>
 <br>
 
@@ -65,4 +58,14 @@ Master와 통신하는 Node agent. Pod에 속하는 Container들이 항상 유�
 
 ### 3. kube-proxy
 Kubernetes는 Cluster 내부에 별도의 가상 네트워클르 설정하고 관리하는데, kube-proxy가 가상 네트워크를 구성하고 관리하는 실질적인 Process다. Host의 network rule도 관리하며, API Server한테 Service가 추가되거나 삭제되는 정보를 받아서 route를 갱신한다.
+<br>
+<br>
 
+## Addons
+말그대로 추가로 사용 가능한 Component들인데 대표적으로 명시되어 있는 건 아래 네 가지이고, >다른 것들은 필수는 아니지만 DNS server는 꼭 있어야 하는데 kubeadm과 함께 default로 설치된다. 그리고 1.11 이후 버전에서는 CoreDNS가 권장된다.
+* **DNS**
+* **Web UI(Dashboard)**
+* **CRM(Container Resource Monitoring)**
+* **Cluster-level Logging**
+<br>
+<br>
