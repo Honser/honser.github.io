@@ -41,9 +41,10 @@ nav:
     # - { Categories All: '/blog/categories/' }
     - { Daily: '/blog/categories/#daily' }
     - { OpenStack: '/blog/categories/#openstack' }
+    - { Kubernetes: '/blog/categories/#kubernetes' }
     - { SDN: '/blog/categories/#sdn' }
     - { Django: '/blog/categories/#django' }
-    - { Python: '/blog/categories/#python' }
+    # - { Python: '/blog/categories/#python' }
     - { Project: '/blog/categories/#project' }
     - { etc: '/blog/categories/#etc' }
     # - { Tags: '/blog/tags/' }
