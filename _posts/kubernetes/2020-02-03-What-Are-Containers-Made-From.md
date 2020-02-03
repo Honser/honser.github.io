@@ -29,9 +29,7 @@ CPU, Memory, I/O 등의 자원을 할당해주는 방식이다. VM처럼 hardwar
 VM에 비해 독립성 측면에서는 부족하지만, 벽을 시공해서 막는 느낌이 아니라 간이 칸막이를 세우는 느낌이라 여러 가지 의미로
 훨씬 가벼운(?) 용도로 쓸 수 있다. 위의 그림에 나와있는 libcontainer는 밑에 적을 kernel feature들을 가지고 container를 만드는 역할을 하는 container runtime인데 이후에 따로 정리하려고 한다.
 
-각각 좀 더 자세히 보자면,
-
-
+*****
 
 ## 1. CGroup
 
@@ -53,6 +51,7 @@ cgroup은 아래 표처럼 각 자원을 담당하는 subsystem들로 구성된�
 | net_prio  | network interface 별 우선순위를 부여해서 traffic 제어 |
 | hugetlb   | Hugepage 사용 제어                                           |
 | pid       | cgroup 내에서 생성 될 수 있는 process 개수 제어              |
+{: style="font-size: 80%;"}  
 
 ![cgroup_cli]({{ site.baseurl }}/images/cgroup_cli.png#center)
 cgroups of Ubuntu 18.04
@@ -76,6 +75,7 @@ cgroups of Ubuntu 18.04
 | UTS(Unix Time Sharing)           | hostname, NIS domain name                   |
 | USER                             | UID, GID                                    |
 | CGROUP                           | cgroup                                      |
+{: style="font-size: 80%;"}  
 
 ![namespace_cli]({{ site.baseurl }}/images/namespace_cli.png#center)
 namespaces of Ubuntu 18.04
