@@ -43,7 +43,7 @@ nav:
     - { OpenStack: '/blog/categories/#openstack' }
     - { Kubernetes: '/blog/categories/#kubernetes' }
     - { SDN: '/blog/categories/#sdn' }
-    - { Django: '/blog/categories/#django' }
+    # - { Django: '/blog/categories/#django' }
     # - { Python: '/blog/categories/#python' }
     - { Project: '/blog/categories/#project' }
     - { etc: '/blog/categories/#etc' }
