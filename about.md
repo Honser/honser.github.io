@@ -10,9 +10,9 @@ title: About
 
 ## Interests
 
-* VNF & NFV & SDN
-* Linux systems
-* Cloud infrastructure
+* Cloud Native
+* Private Cloud
+* Public Cloud
 <br>
 <br>
 
